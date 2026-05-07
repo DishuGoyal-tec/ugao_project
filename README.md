@@ -1,78 +1,47 @@
-## Ugaoo Business Analytics Project
-This project is a business-focused analytics portfolio project built around Ugaoo, a real D2C gardening brand. The goal of the project is to analyze business data, generate practical insights, and present them through both dashboarding and an AI-enabled query system.
+# Ugaoo Business Analytics Project
 
-Project Overview
-The project was designed to show how data can support decision-making in a real company context. Instead of treating it like a generic academic exercise, the work was structured to reflect practical business understanding, analytical thinking, and stakeholder-oriented presentation.
+A business-focused analytics portfolio project built around Ugaoo, a real D2C gardening brand. Combines data analysis, Power BI dashboards, and an AI-powered chatbot using RAG.
 
-Main Components
-1. Exploratory Data Analysis (EDA)
-Performed data analysis using Python.
+## Tech Stack
+- Python, FastAPI, pandas, numpy
+- React + TypeScript (frontend)
+- Ollama + FAISS (RAG backend)
+- Power BI (dashboards)
+- Docker
 
-Used libraries such as pandas, numpy, and visualization tools.
+## Project Structure
+ugao_project/
+├── rag_backend/        # FastAPI backend + RAG pipeline
+├── ugaoobot/           # React frontend chatbot
+├── power bi exported/  # CSVs and analysis notebooks
+├── docker-compose.yml  # Run everything with Docker
+└── README.md
 
-Explored customer behavior, sales patterns, category performance, and operational trends.
+## How to Run
 
-Focused on deriving meaningful business insights instead of only technical outputs.
+### 1. Clone the repo
+git clone https://github.com/DishuGoyal-tec/ugao_project.git
+cd ugao_project
 
-2. Power BI Dashboard
-Built a Power BI dashboard to present findings in a clear and interactive way.
+### 2. Set up environment
+cp .env.example .env
+# Fill in your API keys in .env
 
-Converted analysis into visual insights for easier stakeholder understanding.
+### 3. Start backend + Ollama with Docker
+docker compose up
 
-Highlighted patterns related to performance, trends, and business monitoring.
+### 4. Start frontend
+cd ugaoobot
+npm install
+npm run dev
 
-3. Frontend + Backend Chatbot
-Developed a chatbot system as an additional business-facing layer.
+### 5. Rebuild FAISS index (if needed)
+cd rag_backend
+python ingest.py
 
-Built the frontend using Node.js.
+## Screenshots
+![Dashboard 1](https://github.com/DishuGoyal-tec/ugao_project/blob/eb9024a08e2ae8bb2863dd30e689e7ff8486cc8d/power%20bi%20exported/Customer%20Analysis%20Dashboard.png)
+![Dashboard 2](https://github.com/DishuGoyal-tec/ugao_project/blob/eb9024a08e2ae8bb2863dd30e689e7ff8486cc8d/power%20bi%20exported/Executive%20Dashboard.png)
 
-Used RAG pipelines in the backend for grounded and context-aware responses.
-
-Designed the chatbot to interact with project knowledge in a more accessible way.
-
-Project Objective
-The main objective of this project is to demonstrate how a real business dataset can be transformed into:
-
-actionable insights,
-
-dashboard-driven reporting,
-
-and an intelligent interface for querying information.
-
-Skills Demonstrated
-Python for data analysis
-
-Data cleaning and exploratory analysis
-
-Business insight generation
-
-Power BI dashboarding
-
-Frontend and backend project integration
-
-RAG-based chatbot workflow
-
-Project storytelling for portfolio and interview use
-
-Use Case
-This project can be presented as a portfolio project for roles related to:
-
-Business Analyst
-
-Data Analyst
-
-Product/Data-focused roles
-
-Entry-level applied AI or analytics roles
-
-I have created a demo video of chatbot :
-
-# Link -->
-https://youtu.be/6YErSi0D5WQ
-
-Notes
-This project is centered on business understanding and practical presentation.
-
-It combines analytics, visualization, and applied AI concepts in one end-to-end workflow.
-
-Demand forecasting is not currently implemented as a finished module in this project.
+## Demo
+[Watch demo video](https://youtu.be/6YErSi0D5WQ)
