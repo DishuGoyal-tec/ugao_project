@@ -1,1 +1,8 @@
-__pycache__/ *.faiss *.pkl node_modules/ dist/ .env *.pbix .DS_Store
+__pycache__/
+*.faiss
+*.pkl
+node_modules/
+dist/
+.env
+*.pbix
+.DS_Store
