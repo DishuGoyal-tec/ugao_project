@@ -1,0 +1,10 @@
+flask
+flask-cors
+requests
+pandas
+pymupdf
+langchain
+langchain-community
+faiss-cpu
+langchain-huggingface
+langchain-text-splitters

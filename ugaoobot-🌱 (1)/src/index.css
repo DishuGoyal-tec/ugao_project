@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", serif;
+  
+  --color-ugaoo-green: #2B7A44;
+  --color-ugaoo-accent: #38B000;
+  
+  /* Theme Variables */
+  --color-theme-bg: var(--theme-bg, #FFFFFF);
+  --color-theme-sidebar: var(--theme-sidebar, #F0F2F6);
+  --color-theme-text: var(--theme-text, #262730);
+  --color-theme-text-muted: var(--theme-text-muted, #5E6171);
+  --color-theme-border: var(--theme-border, #E6E9EF);
+  --color-theme-chat-bot: var(--theme-chat-bot, #E8F5E9);
+  --color-theme-chat-user: var(--theme-chat-user, #F0F2F6);
+}
+
+:root {
+  /* Forest Theme (Default Light) */
+  --theme-bg: #FFFFFF;
+  --theme-sidebar: #F0F2F6;
+  --theme-text: #262730;
+  --theme-text-muted: #5E6171;
+  --theme-border: #E6E9EF;
+  --theme-chat-bot: #E8F5E9;
+  --theme-chat-user: #F0F2F6;
+}
+
+.theme-forest {
+  --theme-bg: #FFFFFF;
+  --theme-sidebar: #F0F2F6;
+  --theme-text: #262730;
+  --theme-text-muted: #5E6171;
+  --theme-border: #E6E9EF;
+  --theme-chat-bot: #E8F5E9;
+  --theme-chat-user: #F0F2F6;
+}
+
+.theme-soil {
+  --theme-bg: #3d2b1f;
+  --theme-sidebar: #2d1e16;
+  --theme-text: #efe5de;
+  --theme-text-muted: rgba(239, 229, 222, 0.6);
+  --theme-border: rgba(255, 255, 255, 0.05);
+  --theme-chat-bot: #4a3a2e;
+  --theme-chat-user: #2d1e16;
+}
+
+.theme-jungle {
+  --theme-bg: #091a11;
+  --theme-sidebar: #050d08;
+  --theme-text: #e2f0e7;
+  --theme-text-muted: rgba(226, 240, 231, 0.6);
+  --theme-border: rgba(43, 122, 68, 0.2);
+  --theme-chat-bot: #163020;
+  --theme-chat-user: #050d08;
+}
+
+.theme-terracotta {
+  --theme-bg: #fdf8f5;
+  --theme-sidebar: #f7ede2;
+  --theme-text: #432818;
+  --theme-text-muted: #99582a;
+  --theme-border: #eddcd2;
+  --theme-chat-bot: #f9dcc4;
+  --theme-chat-user: #f7ede2;
+}
+
+@layer base {
+  body {
+    @apply font-sans transition-colors duration-500 bg-theme-bg text-theme-text;
+  }
+}
+
+.chat-bubble-bot {
+  @apply bg-theme-chat-bot rounded-xl p-4 rounded-bl-none shadow-sm;
+}
+
+.chat-bubble-user {
+  @apply bg-theme-chat-user rounded-xl p-4 rounded-br-none shadow-sm;
+}
+
+.sidebar-label {
+  @apply text-[10px] uppercase tracking-[0.2em] font-bold text-theme-text-muted mb-3 block;
+}
+
+.status-pill {
+  @apply bg-[#D4EDDA] text-[#155724] px-3 py-1 rounded-full text-xs font-semibold inline-block;
+}
+
+.markdown-content p {
+  @apply mb-2 last:mb-0;
+}
+
+.markdown-content ul, .markdown-content ol {
+  @apply ml-5 mb-2 list-disc;
+}
+
+.markdown-content li {
+  @apply mb-1;
+}

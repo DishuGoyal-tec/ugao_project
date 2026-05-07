@@ -1,0 +1,53 @@
+product_id,product_name,category,sub_category,mrp_inr,cost_price_inr,selling_price_inr,gross_margin_pct,maintenance_level,weight_grams,is_bestseller,avg_customer_rating,total_reviews,stock_available,reorder_level,supplier,shelf_life_days,packaging_type,launched_date,is_active,quick_commerce_eligible,plant_care_guide_available
+PL001,Monstera Deliciosa,Live Plants,Indoor Plants,499,140,449,68.8,Low,1007,Yes,4.5,3708,361,71,Import – SE Asia,72,Patented Cylinder Box,2023-06-24,Yes,Yes,Yes
+PL002,Peace Lily,Live Plants,Indoor Plants,349,90,299,69.9,Low,1943,No,3.9,6530,207,72,Vendor – Pune,50,Patented Cylinder Box,2023-11-29,Yes,Yes,Yes
+PL003,Snake Plant (Sansevieria),Live Plants,Indoor Plants,399,100,349,71.3,Very Low,4217,Yes,4.4,3259,205,108,Import – SE Asia,54,Patented Cylinder Box,2023-05-30,Yes,Yes,Yes
+PL004,Fiddle Leaf Fig,Live Plants,Indoor Plants,899,300,799,62.5,Medium,3734,No,4.2,6143,1437,57,Vendor – Hyderabad,48,Patented Cylinder Box,2020-08-19,Yes,Yes,Yes
+PL005,Golden Pothos,Live Plants,Indoor Plants,249,60,199,69.8,Very Low,655,Yes,4.0,2210,1457,89,Vendor – Kolkata,86,Patented Cylinder Box,2022-07-16,Yes,Yes,Yes
+PL006,ZZ Plant,Live Plants,Indoor Plants,549,160,499,67.9,Very Low,3022,No,4.6,2791,1521,55,Talegaon Farm (In-house),81,Patented Cylinder Box,2023-09-05,Yes,Yes,Yes
+PL007,Spider Plant,Live Plants,Indoor Plants,299,75,249,69.9,Low,1459,No,3.9,1255,1896,62,Vendor – Hyderabad,68,Patented Cylinder Box,2021-10-04,Yes,Yes,Yes
+PL008,Money Plant (Epipremnum),Live Plants,Indoor Plants,199,50,179,72.1,Very Low,492,Yes,3.9,203,1955,90,Talegaon Farm (In-house),26,Patented Cylinder Box,2022-10-11,Yes,Yes,Yes
+PL009,Rubber Plant,Live Plants,Indoor Plants,599,180,549,67.2,Low,3411,No,3.9,2722,495,73,Vendor – Hyderabad,47,Patented Cylinder Box,2019-12-14,Yes,Yes,Yes
+PL010,Aglaonema Red,Live Plants,Indoor Plants,699,210,649,67.6,Low,3652,No,4.2,4499,1744,114,Vendor – Hyderabad,87,Patented Cylinder Box,2022-03-24,Yes,Yes,Yes
+PL011,Rose – Red (Grafted),Live Plants,Outdoor Plants,449,130,399,67.4,High,4407,No,4.1,5734,220,75,Vendor – Pune,62,Patented Cylinder Box,2023-11-10,Yes,Yes,Yes
+PL012,Hibiscus – Pink,Live Plants,Outdoor Plants,399,110,349,68.5,Medium,3636,No,4.3,4540,1321,114,Import – SE Asia,83,Patented Cylinder Box,2019-05-01,Yes,Yes,Yes
+PL013,Bougainvillea,Live Plants,Outdoor Plants,399,115,349,67.0,Low,3471,No,4.8,6799,1160,25,Vendor – Kolkata,44,Patented Cylinder Box,2023-01-04,Yes,Yes,Yes
+PL014,Ixora,Live Plants,Outdoor Plants,299,85,269,68.4,Medium,3736,No,4.3,961,120,64,Vendor – Hyderabad,65,Patented Cylinder Box,2022-06-16,Yes,Yes,Yes
+PL015,Marigold Seedling,Live Plants,Outdoor Plants,149,40,129,69.0,Medium,1232,No,4.4,4445,1347,137,Vendor – Kolkata,45,Patented Cylinder Box,2020-07-24,Yes,Yes,Yes
+PL016,Aloe Vera,Live Plants,Succulents,299,80,249,67.9,Very Low,2550,Yes,4.2,3981,1596,141,Vendor – Pune,84,Patented Cylinder Box,2021-02-28,Yes,Yes,Yes
+PL017,Cactus Mix (3 pack),Live Plants,Succulents,249,65,219,70.3,Very Low,269,No,4.0,5836,966,143,Talegaon Farm (In-house),60,Patented Cylinder Box,2020-06-02,Yes,Yes,Yes
+PL018,Echeveria Set of 3,Live Plants,Succulents,349,95,299,68.2,Very Low,1571,No,4.6,2007,1275,143,Talegaon Farm (In-house),63,Patented Cylinder Box,2021-05-24,Yes,Yes,Yes
+PL019,Areca Palm,Live Plants,Air Purifiers,799,250,749,66.6,Low,3737,No,4.2,5415,1639,55,Import – SE Asia,89,Patented Cylinder Box,2019-02-06,Yes,Yes,Yes
+PL020,Bamboo Palm,Live Plants,Air Purifiers,849,270,799,66.2,Low,845,No,4.0,3540,262,104,Vendor – Hyderabad,61,Patented Cylinder Box,2021-08-28,Yes,Yes,Yes
+SD001,Cherry Tomato Seeds,Seeds,Vegetable Seeds,99,18,89,79.8,Low,206,Yes,4.6,2806,1191,28,Talegaon Farm (In-house),180,Standard,2019-12-28,Yes,No,No
+SD002,Spinach Seeds (50g),Seeds,Vegetable Seeds,79,14,69,79.7,Low,2139,No,4.7,233,37,143,Vendor – Kolkata,180,Standard,2019-09-03,Yes,No,No
+SD003,Coriander Seeds (50g),Seeds,Vegetable Seeds,69,12,59,79.7,Low,3616,No,4.1,2545,1051,45,Import – SE Asia,180,Standard,2021-06-05,Yes,No,No
+SD004,Chilli Hybrid Seeds,Seeds,Vegetable Seeds,109,22,99,77.8,Low,553,No,4.5,3693,1016,48,Vendor – Kolkata,180,Standard,2021-12-28,Yes,No,No
+SD005,Marigold Seeds,Seeds,Flower Seeds,89,16,79,79.7,Low,1898,No,4.1,4965,831,45,Import – SE Asia,180,Standard,2023-03-18,Yes,No,No
+SD006,Sunflower Seeds,Seeds,Flower Seeds,109,20,99,79.8,Low,4343,No,3.9,3342,323,87,Vendor – Kolkata,180,Standard,2020-12-13,Yes,No,No
+SD007,Petunia Seeds,Seeds,Flower Seeds,129,28,119,76.5,Medium,3846,No,4.8,4239,1351,53,Import – SE Asia,180,Standard,2019-01-07,Yes,No,No
+SD008,Methi Seeds (100g),Seeds,Herb Seeds,59,10,49,79.6,Low,1839,No,4.1,4573,1713,141,Talegaon Farm (In-house),180,Standard,2020-12-23,Yes,No,No
+SD009,Basil Seeds,Seeds,Herb Seeds,79,15,69,78.3,Low,4276,No,4.4,4076,1073,49,Talegaon Farm (In-house),180,Standard,2020-10-17,Yes,No,No
+PT001,Ceramic Pot 5 inch – White,Pots & Planters,Ceramic Pots,349,105,319,67.1,N/A,2784,No,4.6,3752,1877,146,Vendor – Kolkata,999,Standard,2023-01-21,Yes,Yes,No
+PT002,Ceramic Pot 6 inch – Terracotta look,Pots & Planters,Ceramic Pots,449,135,399,66.2,N/A,910,Yes,4.0,6651,1076,138,Vendor – Pune,999,Standard,2023-08-25,Yes,Yes,No
+PT003,Ceramic Pot 8 inch – Matte Black,Pots & Planters,Ceramic Pots,699,210,649,67.6,N/A,1193,No,4.1,6010,594,126,Talegaon Farm (In-house),999,Standard,2022-10-15,Yes,Yes,No
+PT004,Classic Terracotta 6in,Pots & Planters,Terracotta Pots,249,70,219,68.0,N/A,1994,No,4.7,4351,45,72,Vendor – Pune,999,Standard,2022-12-28,Yes,Yes,No
+PT005,Self-Watering Pot 7in,Pots & Planters,Self-Watering,799,240,749,68.0,N/A,359,No,4.7,4757,1750,46,Vendor – Pune,999,Standard,2021-02-21,Yes,Yes,No
+PT006,Hanging Basket Planter,Pots & Planters,Hanging Planters,549,165,499,66.9,N/A,2274,No,4.2,3512,751,52,Talegaon Farm (In-house),999,Standard,2020-09-13,Yes,Yes,No
+PT007,Vertical Wall Planter (5 pocket),Pots & Planters,Wall Planters,1299,390,1199,67.5,N/A,1142,No,4.3,2468,1618,36,Import – SE Asia,999,Standard,2020-07-10,Yes,No,No
+PT008,Nursery Grow Bags (5 pack),Pots & Planters,Grow Bags,299,80,269,70.3,N/A,2850,No,4.1,1045,437,65,Vendor – Hyderabad,999,Standard,2019-04-04,Yes,Yes,No
+FR001,Ugaoo NPK 19-19-19 (500g),Fertilisers,Chemical Fert.,349,95,299,68.2,N/A,2102,No,4.6,5668,603,144,Vendor – Pune,999,Standard,2023-06-28,Yes,No,No
+FR002,Organic Vermicompost (2kg),Fertilisers,Organic Fert.,399,110,349,68.5,N/A,268,Yes,4.5,154,1363,28,Import – SE Asia,999,Standard,2022-10-04,Yes,No,No
+FR003,Seaweed Liquid Fertiliser,Fertilisers,Liquid Fert.,299,80,249,67.9,N/A,3857,No,4.8,4052,722,50,Talegaon Farm (In-house),999,Standard,2020-12-05,Yes,No,No
+FR004,Bone Meal Fertiliser (500g),Fertilisers,Organic Fert.,349,100,299,66.6,N/A,1867,No,3.9,2256,163,149,Vendor – Pune,999,Standard,2022-12-02,Yes,No,No
+FR005,Plant Tonic – Rooting Hormone,Fertilisers,Specialty,249,70,219,68.0,N/A,3578,No,3.9,4195,128,61,Vendor – Hyderabad,999,Standard,2021-12-30,Yes,No,No
+TL001,Garden Pruner – Stainless,Tools,Pruning Tools,499,145,449,67.7,N/A,872,No,4.2,5025,1993,65,Vendor – Pune,999,Standard,2021-09-18,Yes,No,No
+TL002,Watering Can 2L,Tools,Watering,349,95,299,68.2,N/A,2638,No,4.3,3429,1724,71,Import – SE Asia,999,Standard,2021-05-06,Yes,No,No
+TL003,Premium Potting Mix 5kg,Tools,Soil & Media,449,130,399,67.4,N/A,1574,No,4.0,131,60,40,Vendor – Pune,999,Standard,2022-02-27,Yes,No,No
+TL004,Pebbles Decorative 500g,Tools,Décor,199,55,179,69.3,N/A,320,No,3.9,4992,151,73,Vendor – Hyderabad,999,Standard,2020-12-09,Yes,No,No
+TL005,Moisture Meter,Tools,Gadgets,699,200,649,69.2,N/A,2424,No,4.5,5279,1301,59,Vendor – Pune,999,Standard,2022-09-16,Yes,No,No
+GF001,Green Starter Kit,Gifting,Beginner Kits,999,370,899,58.8,N/A,3396,Yes,4.5,2832,983,25,Import – SE Asia,999,Standard,2023-03-09,Yes,No,No
+GF002,Plant Parent Gift Box,Gifting,Gift Boxes,1799,660,1649,60.0,N/A,1477,No,4.1,4361,937,77,Vendor – Hyderabad,999,Standard,2021-04-11,Yes,No,No
+GF003,Festive Diwali Plant Hamper,Gifting,Festive Hampers,2999,1100,2749,60.0,N/A,2814,Yes,4.7,3435,220,60,Vendor – Pune,999,Standard,2020-12-01,Yes,No,No
+GF004,Corporate Desk Plant Set,Gifting,Corporate,1499,540,1349,60.0,N/A,1772,No,4.0,4221,1588,144,Import – SE Asia,999,Standard,2023-06-28,Yes,No,No
+GF005,Anniversary Succulent Box,Gifting,Gift Boxes,1199,430,1099,60.9,N/A,1318,No,4.6,832,246,92,Vendor – Hyderabad,999,Standard,2022-05-07,Yes,No,No

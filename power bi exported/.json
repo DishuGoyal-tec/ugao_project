@@ -1,0 +1,32 @@
+{
+    "name": "Ugaoo Customer Intelligence",
+    "dataColors": [
+        "#4A8C41",
+        "#1A4A7A",
+        "#E8A020",
+        "#C0392B",
+        "#8B6914",
+        "#5DA84E",
+        "#3A7BD5",
+        "#E8593C"
+    ],
+    "background": "#F7F5F0",
+    "tableAccent": "#2D5A27",
+    "foreground": "#1A1814",
+    "visualStyles": {
+        "*": {
+            "*": {
+                "fontFamily": [
+                    {
+                        "value": "Segoe UI"
+                    }
+                ],
+                "fontSize": [
+                    {
+                        "value": 10
+                    }
+                ]
+            }
+        }
+    }
+}
