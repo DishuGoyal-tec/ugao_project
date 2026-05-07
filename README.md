@@ -65,6 +65,11 @@ Product/Data-focused roles
 
 Entry-level applied AI or analytics roles
 
+I have created a demo video of chatbot :
+
+# Link -->
+https://youtu.be/6YErSi0D5WQ
+
 Notes
 This project is centered on business understanding and practical presentation.
 
